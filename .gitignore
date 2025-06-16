@@ -1,0 +1,33 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+example.tfvars
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive variables files
+*.tfvars
+!example.tfvars
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control
+#!example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+*tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+example.tfvars
+.terraform.lock.hcl
