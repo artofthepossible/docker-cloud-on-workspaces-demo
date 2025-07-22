@@ -8,6 +8,10 @@ This Terraform configuration sets up an AWS WorkSpace with a customized security
 - [Terraform](https://www.terraform.io/downloads.html) installed (v1.0.0+)
 - AWS Directory Service directory already set up
 - VPC configured in your AWS account
+- Source image "DDCloudWorkspace" configured in AWS WorkSpaces
+  - This image will be associated with the WorkSpace bundle
+  - All WorkSpaces created or rebuilt with this bundle will use this image
+  - Ensure the image meets your organization's security and compliance requirements
 
 ## Quick Start
 
